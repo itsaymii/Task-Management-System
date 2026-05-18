@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+html {
+  background-color: #f9fafb;
+  color: #111827;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #f9fafb;
+  color: #111827;
+}
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
+code {
+  font-family: 'Courier New', monospace;
+  background-color: #f3f4f6;
+  padding: 2px 6px;
+  border-radius: 3px;
+}

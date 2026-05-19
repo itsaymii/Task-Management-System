@@ -26,7 +26,7 @@ export default function TaskList({
     <div className="w-full">
       {tasks.length === 0 ? (
         <div className="rounded-2xl bg-white/95 backdrop-blur-md border border-white px-6 py-20 text-center text-base text-[#9394a5]/80 font-semibold shadow-[0_15px_35px_rgba(30,27,75,0.04)]">
-          ✨ Clear space, clear mind. No tasks left!
+          Clear space, clear mind. No tasks left!
         </div>
       ) : (
         <ul className="flex flex-col space-y-3.5">

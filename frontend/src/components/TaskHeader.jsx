@@ -12,7 +12,7 @@ export default function TaskHeader() {
           Task Management<span className="text-[#57ddff] tracking-normal">.</span>
         </h1>
         <p className="text-xs font-bold text-white/70 tracking-wider uppercase bg-white/10 backdrop-blur-md px-3 py-1 rounded-full w-fit border border-white/10 shadow-sm">
-          ✨ {today}
+          {today}
         </p>
       </div>
       
